@@ -309,9 +309,10 @@ ENTRYPOINT ["java","-jar","/app/app.jar","--spring.profiles.active=docker"]
 **Mohamed Boussas**
 - GitHub: [@boussas](https://github.com/boussas)
 
-## Special Thanks To:
+## Special Thanks To
 
 - Spring Boot team for the excellent framework
 - React team for the powerful UI library
 - Tailwind CSS for the utility-first CSS framework
 - Heroicons for the beautiful icon set
+
