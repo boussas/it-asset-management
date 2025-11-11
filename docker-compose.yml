@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres-asset
+    environment:
+      POSTGRES_DB: asset_management
+      POSTGRES_USER: YOUR_DATABASE_USERNAME
+      POSTGRES_PASSWORD: YOUR_DATABASE_PASSWORD
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - asset-net
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend-asset
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/asset_management
+      SPRING_DATASOURCE_USERNAME: YOUR_DATABASE_USERNAME
+      SPRING_DATASOURCE_PASSWORD: YOUR_DATABASE_PASSWORD
+    networks:
+      - asset-net
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  asset-net:
+    driver: bridge

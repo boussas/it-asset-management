@@ -1,0 +1,136 @@
+{
+  "header": {
+    "title": "IT Asset Management",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "login": {
+    "title": "Admin Login",
+    "welcome": "Welcome back!",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign in",
+    "loading": "Signing in..."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalAssets": "Total Assets",
+    "assetsInUse": "Assets In Use",
+    "assetsInRepair": "Assets In Repair",
+    "totalUsers": "Total Users",
+    "assetsByStatus": "Assets by Status",
+    "assetsByDepartment": "Assets by Department",
+    "recentAssets": "Recently Added Assets"
+  },
+  "assets": {
+    "title": "Manage Assets",
+    "add": "Add New Asset",
+    "search": "Search by name or serial number...",
+    "filterStatus": "Filter by Status",
+    "allStatuses": "All Statuses",
+    "table": {
+      "name": "Asset Name",
+      "category": "Category",
+      "status": "Status",
+      "assignedTo": "Assigned To",
+      "purchaseDate": "Purchase Date",
+      "actions": "Actions"
+    },
+    "modal": {
+      "add": "Add New Asset",
+      "edit": "Edit Asset",
+      "id": "Asset ID",
+      "category": "Category",
+      "status": "Status",
+      "name": "Asset Name",
+      "vendor": "Vendor",
+      "purchaseDate": "Purchase Date",
+      "warrantyExpiry": "Warranty Expiry",
+      "assignedTo": "Assigned To",
+      "unassigned": "Unassigned",
+      "specifications": "Specifications",
+      "notes": "Notes",
+      "save": "Save Changes",
+      "create": "Create Asset",
+      "saving": "Saving..."
+    },
+    "history": {
+      "title": "History for {name} ({id})",
+      "noHistory": "No history available for this asset.",
+      "notes": "Notes",
+      "user": "User"
+    },
+    "detail": {
+      "back": "Back to Assets",
+      "assetDetails": "Asset Details",
+      "specificationsNotes": "Specifications & Notes",
+      "assignedTo": "Assigned To",
+      "history": "History",
+      "unassigned": "This asset is not currently assigned."
+    }
+  },
+  "users": {
+    "title": "Manage Users",
+    "add": "Add New User",
+    "search": "Search by name or email...",
+    "filterDepartment": "Filter by Department",
+    "allDepartments": "All Departments",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "department": "Department",
+      "assignedAssets": "Assigned Assets",
+      "actions": "Actions"
+    },
+    "modal": {
+      "add": "Add New User",
+      "edit": "Edit User",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "department": "Department",
+      "save": "Save Changes",
+      "create": "Create User",
+      "saving": "Saving..."
+    }
+  },
+  "departments": {
+    "departments": "Departments",
+    "title": "Manage Departments",
+    "add": "Add New Department",
+    "search": "Search by department name...",
+    "table": {
+      "name": "Department Name",
+      "employeeCount": "Employee Count",
+      "employees": "Employees",
+      "actions": "Actions"
+    },
+    "modal": {
+      "add": "Add New Department",
+      "edit": "Edit Department",
+      "name": "Department Name",
+      "save": "Save Changes",
+      "create": "Create Department",
+      "saving": "Saving..."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "fullName": "Full Name",
+    "email": "Email",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password (optional)",
+    "confirmPassword": "Confirm New Password",
+    "save": "Save Changes",
+    "saving": "Saving..."
+  },
+  "common": {
+    "close": "Close",
+    "edit": "Edit",
+    "delete": "Delete",
+    "history": "History",
+    "yes": "Yes",
+    "no": "No",
+    "unassigned": "Unassigned",
+    "noEmployees": "No employees"
+  }
+}

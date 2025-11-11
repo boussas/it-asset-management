@@ -1,0 +1,136 @@
+{
+  "header": {
+    "title": "Gestion des Actifs IT",
+    "logout": "Déconnexion",
+    "profile": "Profil"
+  },
+  "login": {
+    "title": "Connexion Admin",
+    "welcome": "Bon retour !",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "loading": "Connexion en cours..."
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "totalAssets": "Actifs totaux",
+    "assetsInUse": "Actifs en cours d'utilisation",
+    "assetsInRepair": "Actifs en réparation",
+    "totalUsers": "Utilisateurs totaux",
+    "assetsByStatus": "Actifs par statut",
+    "assetsByDepartment": "Actifs par département",
+    "recentAssets": "Actifs récemment ajoutés"
+  },
+  "assets": {
+    "title": "Gérer les Actifs",
+    "add": "Ajouter un nouvel actif",
+    "search": "Rechercher par nom ou numéro de série...",
+    "filterStatus": "Filtrer par statut",
+    "allStatuses": "Tous les statuts",
+    "table": {
+      "name": "Nom de l'actif",
+      "category": "Catégorie",
+      "status": "Statut",
+      "assignedTo": "Assigné à",
+      "purchaseDate": "Date d'achat",
+      "actions": "Actions"
+    },
+    "modal": {
+      "add": "Ajouter un nouvel actif",
+      "edit": "Modifier l'actif",
+      "id": "ID de l'actif",
+      "category": "Catégorie",
+      "status": "Statut",
+      "name": "Nom de l'actif",
+      "vendor": "Fournisseur",
+      "purchaseDate": "Date d'achat",
+      "warrantyExpiry": "Expiration de la garantie",
+      "assignedTo": "Assigné à",
+      "unassigned": "Non assigné",
+      "specifications": "Spécifications",
+      "notes": "Notes",
+      "save": "Enregistrer les modifications",
+      "create": "Créer l'actif",
+      "saving": "Enregistrement..."
+    },
+    "history": {
+      "title": "Historique de {name} ({id})",
+      "noHistory": "Aucun historique disponible pour cet actif.",
+      "notes": "Notes",
+      "user": "Utilisateur"
+    },
+    "detail": {
+      "back": "Retour aux Actifs",
+      "assetDetails": "Détails de l'actif",
+      "specificationsNotes": "Spécifications & Notes",
+      "assignedTo": "Assigné à",
+      "history": "Historique",
+      "unassigned": "Cet actif n'est pas actuellement assigné."
+    }
+  },
+  "users": {
+    "title": "Gérer les Utilisateurs",
+    "add": "Ajouter un nouvel utilisateur",
+    "search": "Rechercher par nom ou e-mail...",
+    "filterDepartment": "Filtrer par département",
+    "allDepartments": "Tous les départements",
+    "table": {
+      "name": "Nom",
+      "email": "E-mail",
+      "department": "Département",
+      "assignedAssets": "Actifs assignés",
+      "actions": "Actions"
+    },
+    "modal": {
+      "add": "Ajouter un nouvel utilisateur",
+      "edit": "Modifier l'utilisateur",
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "department": "Département",
+      "save": "Enregistrer les modifications",
+      "create": "Créer l'utilisateur",
+      "saving": "Enregistrement..."
+    }
+  },
+  "departments": {
+    "departments": "Départments",
+    "title": "Gérer les Départements",
+    "add": "Ajouter un nouveau département",
+    "search": "Rechercher par nom de département...",
+    "table": {
+      "name": "Nom du département",
+      "employeeCount": "Nombre d'employés",
+      "employees": "Employés",
+      "actions": "Actions"
+    },
+    "modal": {
+      "add": "Ajouter un nouveau département",
+      "edit": "Modifier le département",
+      "name": "Nom du département",
+      "save": "Enregistrer les modifications",
+      "create": "Créer le département",
+      "saving": "Enregistrement..."
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe (facultatif)",
+    "confirmPassword": "Confirmer le nouveau mot de passe",
+    "save": "Enregistrer les modifications",
+    "saving": "Enregistrement..."
+  },
+  "common": {
+    "close": "Fermer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "history": "Historique",
+    "yes": "Oui",
+    "no": "Non",
+    "unassigned": "Non assigné",
+    "noEmployees": "Aucun employé"
+  }
+}
