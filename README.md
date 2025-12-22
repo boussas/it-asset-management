@@ -73,6 +73,8 @@ backend/
 ├── security/       # JWT authentication & filters
 └── service/        # Business logic layer
 ```
+<img width="844" height="760" alt="image" src="https://github.com/user-attachments/assets/5b23bf88-1816-4f8b-8f5b-cf5b71f8d4f8" />
+
 
 ### Frontend (React + TypeScript)
 ```
@@ -90,6 +92,10 @@ frontend/
 ├── services/       # API service layer
 └── utils/          # Utility functions
 ```
+
+### Entity–Relationship Diagram
+<img width="1287" height="895" alt="image" src="https://github.com/user-attachments/assets/e924f4d4-2990-46af-8194-551c8c155e26" />
+
 
 ## 🚀 Getting Started
 
@@ -315,4 +321,5 @@ ENTRYPOINT ["java","-jar","/app/app.jar","--spring.profiles.active=docker"]
 - React team for the powerful UI library
 - Tailwind CSS for the utility-first CSS framework
 - Heroicons for the beautiful icon set
+
 
